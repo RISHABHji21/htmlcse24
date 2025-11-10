@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div with Colored Children</title>
+    <style>
+        .parent-div {
+            display: flex; 
+            border: 5px solid gray; 
+            padding: 100px;
+        }
+
+        .child-div {
+            width: 100px;
+            height: 400px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(203, 200, 197); 
+            font-weight: bold;
+        }
+
+        .child-div.black {
+            background-color: black;
+        }
+
+        .child-div.blue {
+            background-color: rgb(64, 0, 255);
+        }
+
+        .child-div.red {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    display : Inline block elements
+
+    <div class="parent-div">
+        <div class="child-div black">book <br>s10</div>
+        <div class="child-div blue">Headphones <br> s25</div>
+        <div class="child-div red"> watch <br> s50</div>
+    </div>
+
+</body>
+</html>
