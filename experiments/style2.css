@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    /* Aligns the whole container vertically in the center of the page */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+}
+
+.container {
+    display: flex; /* Defines a flex container */
+    flex-direction: row; /* Arranges items in a row (default) */
+    justify-content: center; /* Centers cards horizontally in the container */
+    align-items: center; /* Centers cards vertically (if they have different heights) */
+    gap: 20px; /* Adds space between the cards */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+    padding: 20px;
+    text-align: center;
+    width: 200px; /* Fixed width for the cards */
+}
+
+.initials {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff; /* Example color */
+    color: white;
+    border-radius: 50%; /* Makes the initials container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto 15px auto; /* Centers the initials and adds margin below */
+}
+
+h2 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0 0 5px 0;
+    color: grey;
+    font-size: 0.9em;
+}
