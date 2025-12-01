@@ -32,13 +32,13 @@ body {
     border-radius: 3px;
 }
 
-/* Top Nav uses 'float' implicitly by being displayed inline-block in this simplified setup */
+
 .top-nav a {
     display: inline-block;
 }
 
-/* Bottom Nav specifically styled with a different color */
+
 .bottom-nav a {
     display: inline-block;
-    background-color: #aed581; /* Greenish background */
+    background-color: #aed581; 
 }
