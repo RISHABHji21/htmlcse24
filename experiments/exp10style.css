@@ -1,0 +1,59 @@
+/* Basic Reset for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 10px 20px;
+    display: flex; /* Aligns children (logo, nav, user-actions) horizontally */
+    justify-content: space-between; /* Pushes items to the ends */
+    align-items: center; /* Vertically centers the items */
+    overflow: hidden;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Aligns list items horizontally */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block; /* Makes links clickable in the entire padded area */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Hover effect */
+}
+
+.user-actions a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+.user-actions a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
