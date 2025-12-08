@@ -4,6 +4,23 @@ background-color:rgb(198, 64, 64);
 
 color: green; 
 }
-h1,h2,h3{
+h2,h3{
     color: rgb(42, 42, 45);
+}
+h1{ 
+    text-decoration: overline;
+font-weight: normal; 
+}
+#one {
+    color: red;
+    font size: 1px;
+    
+    font-family: Arial, sans-serif;
+font-weight: bold;
+text-align: center;
+}
+
+#two {
+    line-height: 100px;
+    text-transform: capitalize;
 }
